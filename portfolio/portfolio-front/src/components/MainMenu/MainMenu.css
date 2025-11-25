@@ -2,6 +2,8 @@
     width: 100vw;
     height: 4vh;
     background-color: #213c55;
+    position: sticky;
+    top: 0;
 }
 
 .menu-items {
@@ -51,6 +53,7 @@
         font-size: 1.5rem;
         color: white;
         cursor: pointer;
+        padding: 3px;
     }
 
     .icon-mainmenu:hover {
@@ -75,6 +78,7 @@
         font-size: 1.5rem;
         color: white;
         cursor: pointer;
+        padding: 3px;
     }
 
     .icon-mainmenu:hover {
@@ -99,6 +103,7 @@
         font-size: 1.5rem;
         color: white;
         cursor: pointer;
+        padding: 2px;
     }
 
     .icon-mainmenu:hover {
@@ -123,6 +128,7 @@
         font-size: 1.5rem;
         color: white;
         cursor: pointer;
+        padding: .5px;
     }
 
 .icon-mainmenu:hover {
