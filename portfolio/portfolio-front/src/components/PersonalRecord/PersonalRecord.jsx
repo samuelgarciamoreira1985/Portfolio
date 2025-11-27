@@ -17,7 +17,7 @@ const PersonalRecord = () => {
 
       <div className="personal-dev">
           <h3 style={{userSelect:"none"}}>Samuel Garcia Moreira</h3>
-          <p style={{userSelect:"none"}}>Formado em Análise e Desenvolvimento de Sistemas com foco em desenvolvimento web. Motivado pela paixão a tecnologia, estou sempre buscando por novos desafios e o aperfeiçoamento de minhas habilidades. Atualmente, estou em busca de uma oportunidade no merdado de trabalho na área do desenvolvimento e posso garantir que esforço e dedicação são atributos que jamais irão faltar.</p>
+          <p style={{userSelect:"none"}}>Formado em Análise e Desenvolvimento de Sistemas com foco em desenvolvimento web especificamente em Front-End. Motivado pela paixão a tecnologia, estou sempre buscando por novos desafios e o aperfeiçoamento de minhas habilidades. Atualmente, estou em busca de uma oportunidade no mercado de trabalho na área do desenvolvimento e posso garantir que esforço e dedicação são atributos que jamais irão faltar.</p>
       </div>
 
       <div className="social-media-dev">
