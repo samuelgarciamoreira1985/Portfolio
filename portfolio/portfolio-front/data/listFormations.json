@@ -1,0 +1,38 @@
+    [
+        {
+            "id": 1,
+            "period": "08/2025 - 20 Horas",
+            "institution": "Plataforma de Cursos - Curso em Vídeo",
+            "course": "Git e GitHub"
+        },
+        {
+            "id": 2,
+            "period": "06/2025 - 40 Horas",
+            "institution": "Plataforma de Cursos - Curso em Vídeo",
+            "course": "JavaScript"
+        },
+        {
+            "id": 3,
+            "period": "2019 - 2021",
+            "institution": "Universidade Paulista - UNIP",
+            "course": "Análise e Desenvolvimento de Sistemas"
+        },
+        {
+            "id": 4,
+            "period": "10/2019 - 94,5 Horas",
+            "institution": "Plataforma de Cursos - Udemy",
+            "course": "Jogos 2D com Unity + C#"
+        },
+        {
+            "id": 5,
+            "period": "08/2019 - 5 Horas",
+            "institution": "Plataforma de Cursos - Udemy",
+            "course": "Desenvolvimento de Sistemas com C#"
+        },
+        {
+            "id": 6,
+            "period": "2001",
+            "institution": "Bit Company",
+            "course": "Delphi - Básico ao Avançado"
+        }
+    ]
