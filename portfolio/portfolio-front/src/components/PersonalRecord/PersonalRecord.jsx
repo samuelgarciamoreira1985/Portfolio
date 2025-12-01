@@ -35,6 +35,10 @@ const PersonalRecord = () => {
           </a>
       </div>
 
+      <div className="curriculum-dev">
+          <p>Estou disponibilizando também o meu currículo digital. Para acessar é só clicar em <a href="#">Currículo Digital</a></p>
+      </div>
+
     </div>
 
   )

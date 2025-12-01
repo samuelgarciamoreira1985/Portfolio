@@ -22,10 +22,12 @@ const Formations = () => {
 
                 {list_Formations && list_Formations?.map(itemFormation => (
                 <div className="items-formations" key={itemFormation.id}>
-                    <p>{itemFormation.period}</p>
-                    <h4>{itemFormation.institution}</h4>
-                    <p>{itemFormation.course}</p>
-                    <button type="button">Ver Certificado</button>
+                    <div className="align-items-formation">
+                        <p style={{fontWeight:"600",fontSize:".9rem"}}>{itemFormation.period}</p>
+                        <h4>{itemFormation.institution}</h4>
+                        <p>{itemFormation.course}</p>
+                        <button type="button">Ver Certificado</button>
+                    </div>
                 </div>
                 ))}
 

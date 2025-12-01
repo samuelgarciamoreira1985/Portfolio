@@ -31,8 +31,14 @@
         },
         {
             "id": 6,
-            "period": "2001",
+            "period": "08/2002 - 16 Horas",
             "institution": "Bit Company",
-            "course": "Delphi - Básico ao Avançado"
+            "course": "Borland Delphi 5 - Básico"
+        },
+        {
+            "id": 6,
+            "period": "2001 - 96 Horas",
+            "institution": "Escolas Advance CCI",
+            "course": "Windows, Word, Excel e Access"
         }
     ]

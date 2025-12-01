@@ -84,6 +84,44 @@
         font-size: 1.3rem;
     }
 
+    .curriculum-dev {
+        display: flex;
+        padding: 12px;
+        width: 95vw;
+        justify-self: center;
+    }
+
+    .curriculum-dev p {
+        font-size: 1rem;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-weight: 500;
+        text-align: justify;
+        padding: 10px;
+        text-shadow: .1px .1px .2px #ffffff;
+    }
+
+    .curriculum-dev a {
+        display: inline-block;
+        width: 140px;
+        height: 21px;
+        text-align: center;
+        align-self: center;
+        color: #ffffff;
+        text-shadow: .2px .2px 1px black;
+        text-decoration: none;
+        font-weight: 600;
+        font-size: 1rem;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        background-color: #213c55;
+        border-radius: 10px;
+        cursor: pointer;
+        outline: 1px solid #929292c0;
+    }
+
+    .curriculum-dev a:hover {
+        background-color: #213c55d8;
+    }
+
 }     
 
 @media screen and (min-width: 768px) and (max-width: 1024px) { /* TABLETS */
@@ -157,6 +195,44 @@
     .icon-social-media-dev:hover {
         fill: #7076f4;
         font-size: 1.3rem;
+    }
+
+    .curriculum-dev {
+        display: flex;
+        padding: 12px;
+        width: 95vw;
+        justify-self: center;
+    }
+
+    .curriculum-dev p {
+        font-size: 1.1rem;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-weight: 500;
+        text-align: justify;
+        padding: 10px;
+        text-shadow: .1px .1px .2px #ffffff;
+    }
+
+    .curriculum-dev a {
+        display: inline-block;
+        width: 160px;
+        height: 23.5px;
+        text-align: center;
+        align-self: center;
+        color: #ffffff;
+        text-shadow: .2px .2px 1px black;
+        text-decoration: none;
+        font-weight: 600;
+        font-size: 1.1rem;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        background-color: #213c55;
+        border-radius: 10px;
+        cursor: pointer;
+        outline:1px solid #929292c0;
+    }
+
+    .curriculum-dev a:hover {
+        background-color: #213c55d8;
     }
 
 }
@@ -234,6 +310,44 @@
         font-size: 1.3rem;
     }
 
+    .curriculum-dev {
+        display: flex;
+        padding: 12px;
+        width: 95vw;
+        justify-self: center;
+    }
+
+    .curriculum-dev p {
+        font-size: 1.1rem;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-weight: 500;
+        text-align: justify;
+        padding: 10px;
+        text-shadow: .1px .1px .2px #ffffff;
+    }
+
+    .curriculum-dev a {
+        display: inline-block;
+        width: 160px;
+        height: 23.5px;
+        text-align: center;
+        align-self: center;
+        color: #ffffff;
+        text-shadow: .2px .2px 1px black;
+        text-decoration: none;
+        font-weight: 600;
+        font-size: 1.1rem;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        background-color: #213c55;
+        border-radius: 10px;
+        cursor: pointer;
+        outline: 1px solid #929292c0;
+    }
+
+    .curriculum-dev a:hover {
+        background-color: #213c55d8;
+    }
+
 }
 
 @media screen and (min-width: 1200px) { /* TELAS GRANDES */
@@ -307,6 +421,44 @@
     .icon-social-media-dev:hover {
         fill: #7076f4;
         font-size: 1.3rem;
+    }
+
+    .curriculum-dev {
+        display: flex;
+        padding: 12px;
+        width: 93.5vw;
+        justify-self: center;
+    }
+
+    .curriculum-dev p {
+        font-size: 1.1rem;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-weight: 500;
+        text-align: justify;
+        padding: 10px;
+        text-shadow: .1px .1px .2px #ffffff;
+    }
+
+    .curriculum-dev a {
+        display: inline-block;
+        width: 170px;
+        height: 24.5px;
+        text-align: center;
+        align-self: center;
+        color: #ffffff;
+        text-shadow: .2px .2px 1px black;
+        text-decoration: none;
+        font-weight: 600;
+        font-size: 1.2rem;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        background-color: #213c55;
+        border-radius: 10px;
+        outline: 1px solid #929292c0;
+        cursor: pointer;
+    }
+
+    .curriculum-dev a:hover {
+        background-color: #213c55d8;
     }
 
 }
