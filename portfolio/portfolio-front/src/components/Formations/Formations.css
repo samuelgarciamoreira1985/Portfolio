@@ -93,6 +93,8 @@
         text-align: center;
         width: 120px;
         height: 23px;
+        line-height: 23px;
+        display: block;
         border-radius: 5px;
         border: none;
         margin-top: 5px;
@@ -191,6 +193,8 @@
         text-align: center;
         width: 130px;
         height: 27px;
+        line-height: 27px;
+        display: block;
         border-radius: 5px;
         border: none;
         margin-top: 5px;
@@ -289,6 +293,8 @@
         text-align: center;
         width: 140px;
         height: 27px;
+        line-height: 27px;
+        display: block;
         border-radius: 5px;
         border: none;
         margin-top: 5px;
@@ -387,6 +393,8 @@
         text-align: center;
         width: 140px;
         height: 27px;
+        line-height: 27px;
+        display: block;
         border-radius: 5px;
         border: none;
         margin-top: 5px;
