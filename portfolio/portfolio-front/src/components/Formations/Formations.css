@@ -85,11 +85,14 @@
         font-family: Arial, Helvetica, sans-serif;
     }
 
-    .items-formations button {
+    .items-formations a {
         background-color: #213c55;
         color: white;
+        display: inline-block;
+        text-decoration: none;
+        text-align: center;
         width: 120px;
-        height: 30px;
+        height: 22.7px;
         border-radius: 5px;
         border: none;
         margin-top: 5px;
@@ -100,7 +103,7 @@
         cursor: pointer;
     }
 
-    .items-formations button:hover {
+    .items-formations a:hover {
         background-color: #213c55c7;
     }
 
@@ -180,22 +183,25 @@
         font-family: Arial, Helvetica, sans-serif;
     }
 
-    .items-formations button {
+    .items-formations a {
         background-color: #213c55;
         color: white;
-        width: 120px;
-        height: 30px;
+        display: inline-block;
+        text-decoration: none;
+        text-align: center;
+        width: 130px;
+        height: 27px;
         border-radius: 5px;
         border: none;
         margin-top: 5px;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        font-size: .9rem;
+        font-size: 1rem;
         font-weight: 600;
         text-shadow: .5px .5px 1px #000000;
         cursor: pointer;
     }
 
-    .items-formations button:hover {
+    .items-formations a:hover {
         background-color: #213c55c7;
     }
 
@@ -275,11 +281,14 @@
         font-family: Arial, Helvetica, sans-serif;
     }
 
-    .items-formations button {
+    .items-formations a {
         background-color: #213c55;
         color: white;
+        display: inline-block;
+        text-decoration: none;
+        text-align: center;
         width: 140px;
-        height: 30px;
+        height: 27px;
         border-radius: 5px;
         border: none;
         margin-top: 5px;
@@ -290,7 +299,7 @@
         cursor: pointer;
     }
 
-    .items-formations button:hover {
+    .items-formations a:hover {
         background-color: #213c55c7;
     }
 
@@ -370,11 +379,14 @@
         font-family: Arial, Helvetica, sans-serif;
     }
 
-    .items-formations button {
+    .items-formations a {
         background-color: #213c55;
         color: white;
+        display: inline-block;
+        text-decoration: none;
+        text-align: center;
         width: 140px;
-        height: 30px;
+        height: 27px;
         border-radius: 5px;
         border: none;
         margin-top: 5px;
@@ -385,7 +397,7 @@
         cursor: pointer;
     }
 
-    .items-formations button:hover {
+    .items-formations a:hover {
         background-color: #213c55c7;
     }
 

@@ -26,7 +26,7 @@ const Formations = () => {
                         <p style={{fontWeight:"600",fontSize:".9rem"}}>{itemFormation.period}</p>
                         <h4>{itemFormation.institution}</h4>
                         <p>{itemFormation.course}</p>
-                        <button type="button">Ver Certificado</button>
+                        <a href={itemFormation.certificate} target="_blank">Ver Certificado</a>
                     </div>
                 </div>
                 ))}
