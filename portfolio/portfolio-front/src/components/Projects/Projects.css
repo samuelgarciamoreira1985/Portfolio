@@ -1,0 +1,151 @@
+.container-projects {
+    width: 100vw;
+}
+
+/* *************MEDIA QUERIES************** */
+
+            /*
+             MOBILE - ATÉ 768px
+             TABLET - 768px até 1024px
+             DESKTOP - 1024px até 1200px
+             GRANDES TELAS - ACIMA DE 1200PX
+            */
+
+@media screen and (max-width: 768px) { /* CELULARES */
+
+    .sub-container-projects {
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+        width: 91vw;
+        height: 100%;
+        justify-self: center;
+        margin-top: 20px;
+        border-radius: 10px;
+        margin-bottom: 30px;
+    }    
+
+    .title-projects {
+        display: flex;
+        flex-direction: row;    
+        gap: 10px;
+        justify-content: center;
+        padding: 12px;
+    }
+
+    .title-projects span {
+        font-size: 1.3rem;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-weight: 600;
+        color: #213c55;
+        text-shadow: .5px .5px 1px #f1efef;
+    }
+
+    .icon-title-projects {
+        font-size: 1.5rem;
+        color: #213c55;
+    }
+
+    .details-projects {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        width: 85vw;
+        align-self: center;
+        margin-bottom: 15px;
+    }
+
+    .items-projects {
+        border-left: 8px solid #213c55;
+        background-color: #F1EFEF;
+        border-radius: 10px;
+        padding: 10px;
+    }
+
+    .items-projects:hover {
+        border-left: 15px solid #213c55;
+        transition: .1s;
+    }
+
+    .align-items-projects {
+        margin-left: 15px;
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    .align-items-projects img {
+        width: 100%;
+        height: 100%;
+        background-size: contain;
+        border-radius: 10px;
+        border-left: 4px solid black;
+        border-bottom: 5px solid black;
+    }
+
+    .align-items-projects .period-project {
+        font-size: 1rem;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight: 600;
+        text-shadow: .5px .5px 1px #ffffff;
+        text-align: justify;
+    }
+
+    .align-items-projects h4 {
+        font-size: 1rem;
+        color: #213c55;
+        font-weight: 600;
+        text-shadow: .5px .5px 1.5px #ffffff;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .align-items-projects .description-project {
+        font-size: 1.1rem;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight: 500;
+        text-shadow: .5px .5px 1px #ffffff;
+        text-align: justify;
+    }
+
+    .icon-description-project {
+        color: #213c55;
+    }
+
+    .align-items-projects a {
+        background-color: #213c55;
+        color: white;
+        display: inline-block;
+        text-decoration: none;
+        text-align: center;
+        width: 130px;
+        height: 26px;
+        line-height: 23px;
+        display: block;
+        border-radius: 5px;
+        border: none;
+        margin-top: 5px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: .9rem;
+        font-weight: 600;
+        text-shadow: .5px .5px 1px #000000;
+        cursor: pointer;
+        align-self: center;
+    }
+
+    .align-items-projects a:hover {
+        background-color: #213c55c7;
+    }
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) { /* TABLETS */
+
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1200px) { /* DESKTOP */
+
+}
+
+@media screen and (min-width: 1200px) { /* GRANDES TELAS */
+    
+}       
