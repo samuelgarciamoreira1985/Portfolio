@@ -1,7 +1,7 @@
 // CSS
 import "./PersonalRecord.css"
 // IMAGENS
-import photo_dev from "../../assets/imagens/photo_logo.png"
+import photo_dev from "../../assets/imagens/photo_dev.png"
 // ÍCONES
 import { FaLinkedinIn,FaGithub,FaInstagramSquare,FaFacebook } from "react-icons/fa";
 
@@ -21,16 +21,16 @@ const PersonalRecord = () => {
       </div>
 
       <div className="social-media-dev">
-          <a href="https://www.linkedin.com/in/samuel-garcia-moreira-456285308/">
+          <a href="https://www.linkedin.com/in/samuel-garcia-moreira-456285308/" target="_blank">
             <FaLinkedinIn className="icon-social-media-dev"/>
           </a>
-          <a href="https://github.com/samuelgarciamoreira1985">
+          <a href="https://github.com/samuelgarciamoreira1985" target="_blank">
             <FaGithub  className="icon-social-media-dev"/>
           </a>
-          <a href="https://www.instagram.com/samuel02031985/">
+          <a href="https://www.instagram.com/samuel02031985/" target="_blank">
             <FaInstagramSquare  className="icon-social-media-dev"/>
           </a>
-          <a href="https://www.facebook.com/samuel.garciamoreira?locale=pt_BR">
+          <a href="https://www.facebook.com/samuel.garciamoreira?locale=pt_BR" target="_blank">
             <FaFacebook  className="icon-social-media-dev"/>
           </a>
       </div>
