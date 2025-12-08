@@ -110,6 +110,104 @@
         border-radius: 10px;
     }
 
+    .sub-container-skills-dark {
+        display: flex;
+        flex-direction: column;
+        background-color: #393C39;
+        width: 91vw;
+        height: 100%;
+        justify-self: center;
+        margin-top: 20px;
+        border-radius: 10px;
+        margin-bottom: 30px;
+    }
+
+    .title-skills-dark { /* TITLE */ 
+        display: flex;
+        flex-direction: row;    
+        gap: 10px;
+        justify-content: center;
+        padding: 12px;
+    }
+
+    .title-skills-dark span {
+        font-size: 1.3rem;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-weight: 600;
+        color: #DC4720;
+        text-shadow: .1px .1px .1px #000000;
+    }
+
+    .icon-title-skill-dark {
+        font-size: 1.5rem;
+        color: #DC4720;
+    } /* TITLE */ 
+
+    .details-skills-dark { /* DETAILS */
+        display: flex;
+        flex-direction: column;
+        margin-top: 10px;
+        gap: 15px;
+    }
+
+    .item-skill-dark {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        padding-bottom: 15px;
+    }
+
+    .info-percentage-skills-dark { /* PORCENTAGEM */
+        display: flex;
+        flex-direction: row;
+        width: 85vw;
+        margin-left: 2.7vw;
+        position: relative;
+    }
+
+    .icon-skill-dark {
+        font-size: 1.1rem;
+        color: #ffffff;
+    }
+
+    .desc-skill-dark {
+        margin-left: 5px;
+        font-size: .9rem;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-weight: 600;
+        color: #ffffff;
+        text-shadow: .1px .1px .1px #000000;
+    }
+
+    .desc-percentage-dark {
+        font-size: .9rem;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-weight: 600;
+        text-shadow: .1px .1px .1px #ffffff6e;
+        position: absolute;
+        left: 79vw;
+        color: #DC4720;
+    } /* PORCENTAGEM */
+
+    .container-progress-skills-dark { /* PROGRESSO */
+        display: flex;
+        justify-content: center;
+        margin-top: 6px;
+    }
+
+    .progress-skills-dark { 
+        width: 85vw;
+        height: 1vh;
+        background-color: #222222;
+        border-radius: 10px;
+    }
+
+    .progress-bar-dark {
+        height: 1vh;
+        background-color: #DC4720;
+        border-radius: 10px;
+    }
+
 }     
 
 @media screen and (min-width: 768px) and (max-width: 1024px) { /* TABLETS */
@@ -208,6 +306,104 @@
     .progress-bar {
         height: 1vh;
         background-color: #213c55;
+        border-radius: 10px;
+    }
+
+    .sub-container-skills-dark {
+        display: flex;
+        flex-direction: column;
+        background-color: #393C39;
+        width: 91vw;
+        height: 100%;
+        justify-self: center;
+        margin-top: 20px;
+        border-radius: 10px;
+        margin-bottom: 30px;
+    }
+
+    .title-skills-dark { /* TITLE */ 
+        display: flex;
+        flex-direction: row;    
+        gap: 10px;
+        justify-content: center;
+        padding: 12px;
+    }
+
+    .title-skills-dark span {
+        font-size: 1.3rem;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-weight: 600;
+        color: #DC4720;
+        text-shadow: .1px .1px .1px #000000;
+    }
+
+    .icon-title-skill-dark {
+        font-size: 1.5rem;
+        color: #DC4720;
+    } /* TITLE */ 
+
+    .details-skills-dark { /* DETAILS */
+        display: flex;
+        flex-direction: column;
+        margin-top: 10px;
+        gap: 15px;
+    }
+
+    .item-skill-dark {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        padding-bottom: 15px;
+    }
+
+    .info-percentage-skills-dark { /* PORCENTAGEM */
+        display: flex;
+        flex-direction: row;
+        width: 85vw;
+        margin-left: 2.7vw;
+        position: relative;
+    }
+
+    .icon-skill-dark {
+        font-size: 1.1rem;
+        color: #ffffff;
+    }
+
+    .desc-skill-dark {
+        margin-left: 5px;
+        font-size: .9rem;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-weight: 600;
+        color: #ffffff;
+        text-shadow: .1px .1px .1px #000000;
+    }
+
+    .desc-percentage-dark {
+        font-size: .9rem;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-weight: 600;
+        text-shadow: .1px .1px .1px #ffffff6e;
+        position: absolute;
+        left: 82vw;
+        color: #DC4720;
+    } /* PORCENTAGEM */
+
+    .container-progress-skills-dark { /* PROGRESSO */
+        display: flex;
+        justify-content: center;
+        margin-top: 6px;
+    }
+
+    .progress-skills-dark { 
+        width: 85vw;
+        height: 1vh;
+        background-color: #222222;
+        border-radius: 10px;
+    }
+
+    .progress-bar-dark {
+        height: 1vh;
+        background-color: #DC4720;
         border-radius: 10px;
     }
 
@@ -311,6 +507,103 @@
         border-radius: 10px;
     }
 
+    .sub-container-skills-dark {
+        display: flex;
+        flex-direction: column;
+        background-color: #393C39;
+        width: 91vw;
+        height: 100%;
+        justify-self: center;
+        margin-top: 20px;
+        border-radius: 10px;
+        margin-bottom: 30px;
+    }
+
+    .title-skills-dark { /* TITLE */ 
+        display: flex;
+        flex-direction: row;    
+        gap: 10px;
+        justify-content: center;
+        padding: 12px;
+    }
+
+    .title-skills-dark span {
+        font-size: 1.5rem;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-weight: 600;
+        color: #DC4720;
+        text-shadow: .1px .1px .1px #000000;
+    }
+
+    .icon-title-skill-dark {
+        font-size: 1.7rem;
+        color: #DC4720;
+    } /* TITLE */ 
+
+    .details-skills-dark { /* DETAILS */
+        display: flex;
+        flex-direction: column;
+        margin-top: 10px;
+        gap: 15px;
+    }
+
+    .item-skill-dark {
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 15px;
+    }
+
+    .info-percentage-skills-dark { /* PORCENTAGEM */
+        display: flex;
+        flex-direction: row;
+        width: 85vw;
+        margin-left: 2.7vw;
+        position: relative;
+    }
+
+    .icon-skill-dark {
+        font-size: 1.1rem;
+        color: #ffffff;
+    }
+
+    .desc-skill-dark {
+        margin-left: 5px;
+        font-size: 1.1rem;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-weight: 600;
+        color: #ffffff;
+        text-shadow: .1px .1px .1px #000000;
+    }
+
+    .desc-percentage-dark {
+        font-size: 1.1rem;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-weight: 600;
+        text-shadow: .1px .1px .1px #ffffff6e;
+        position: absolute;
+        left: 82.1vw;
+        color: #DC4720;
+    } /* PORCENTAGEM */
+
+    .container-progress-skills-dark { /* PROGRESSO */
+        display: flex;
+        justify-content: center;
+        margin-top: 6px;
+    }
+
+    .progress-skills-dark { 
+        width: 85vw;
+        height: 1vh;
+        background-color: #222222;
+        border-radius: 10px;
+    }
+
+    .progress-bar-dark {
+        height: 1.2vh;
+        background-color: #DC4720;
+        border-radius: 10px;
+    }
+
 }
 
 @media screen and (min-width: 1200px) { /* GRANDES TELAS */
@@ -408,6 +701,102 @@
     .progress-bar {
         height: 1.2vh;
         background-color: #213c55;
+        border-radius: 10px;
+    }
+
+    .sub-container-skills-dark {
+        display: flex;
+        flex-direction: column;
+        background-color: #393C39;
+        width: 91vw;
+        height: 100%;
+        justify-self: center;
+        margin-top: 20px;
+        border-radius: 10px;
+        margin-bottom: 30px;
+    }
+
+    .title-skills-dark { /* TITLE */ 
+        display: flex;
+        flex-direction: row;    
+        gap: 10px;
+        justify-content: center;
+        padding: 12px;
+    }
+
+    .title-skills-dark span {
+        font-size: 1.5rem;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-weight: 600;
+        color: #DC4720;
+        text-shadow: .1px .1px .1px #000000;
+    }
+
+    .icon-title-skill-dark {
+        font-size: 1.7rem;
+        color: #DC4720;
+    } /* TITLE */ 
+
+    .details-skills-dark { /* DETAILS */
+        display: flex;
+        flex-direction: column;
+        margin-top: 10px;
+        gap: 15px;
+    }
+
+    .item-skill-dark {
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 15px;
+    }
+
+    .info-percentage-skills-dark { /* PORCENTAGEM */
+        display: flex;
+        flex-direction: row;
+        width: 85vw;
+        margin-left: 2.7vw;
+        position: relative;
+    }
+
+    .icon-skill-dark {
+        font-size: 1.1rem;
+        color: #ffffff;
+    }
+
+    .desc-skill-dark {
+        margin-left: 5px;
+        font-size: 1.1rem;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        color: #ffffff;
+        text-shadow: .1px .1px .1px #000000;
+    }
+
+    .desc-percentage-dark {
+        font-size: 1.1rem;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-weight: 600;
+        text-shadow: .1px .1px .1px #ffffff6e;
+        position: absolute;
+        left: 82.8vw;
+        color: #DC4720;
+    } /* PORCENTAGEM */
+
+    .container-progress-skills-dark { /* PROGRESSO */
+        display: flex;
+        justify-content: center;
+        margin-top: 6px;
+    }
+
+    .progress-skills-dark { 
+        width: 85vw;
+        height: 1vh;
+        background-color: #222222;
+        border-radius: 10px;
+    }
+
+    .progress-bar-dark {
+        height: 1.2vh;
+        background-color: #DC4720;
         border-radius: 10px;
     }
 
