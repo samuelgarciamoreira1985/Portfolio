@@ -1,0 +1,15 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: Helvetica;
+}
+
+body {
+  overflow-x: hidden;
+  background-color: #f1efef;
+}
+
+.dark-theme { /* TEMA ESCURO */
+    background-color: #222222;
+}

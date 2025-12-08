@@ -122,6 +122,108 @@
         background-color: #213c55d8;
     }
 
+    .photo-dev-dark {
+        padding: 10px;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .photo-dev-dark img {
+        width: 250px;
+        height: 250px;
+        border-radius: 50%;
+        border: 10px solid #222222;
+        outline: 8px solid #DC4720;    
+        animation: lights-neon 1.5s infinite alternate;
+    }
+
+    .personal-dev-dark {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        width: 95vw;
+        padding: 12px;
+        margin-top: 22px;
+        justify-self: center;
+    }
+
+    .personal-dev-dark h3 {
+        font-size: 1.3rem;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: #DC4720;
+        text-shadow: .1px .1px .1px #ffffff;
+        font-weight: 600;
+        text-align: center;
+    }
+
+    .personal-dev-dark p {
+        font-size: 1rem;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-weight: 500;
+        text-align: justify;
+        padding: 10px;
+        color: #ffffff;
+        text-shadow: .1px .1px .2px #000000;
+    }
+
+    .social-media-dev-dark {
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        justify-self: center;
+        padding: 10px;
+    }
+
+    .icon-social-media-dev-dark {
+        font-size: 1.4rem;
+        color: #DC4720;
+        cursor: pointer;
+    }
+
+    .icon-social-media-dev-dark:hover {
+        fill: #7076f4;
+        font-size: 1.3rem;
+    }
+
+    .curriculum-dev-dark {
+        display: flex;
+        padding: 12px;
+        width: 95vw;
+        justify-self: center;
+    }
+
+    .curriculum-dev-dark p {
+        font-size: 1rem;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-weight: 500;
+        text-align: justify;
+        padding: 10px;
+        color: #ffffff;
+        text-shadow: .1px .1px .2px #030303;
+    }
+
+    .curriculum-dev-dark a {
+        display: inline-block;
+        width: 170px;
+        height: 24px;
+        text-align: center;
+        align-content: center;
+        color: #ffffff;
+        text-shadow: .2px .2px 1px black;
+        text-decoration: none;
+        font-weight: 600;
+        font-size: 1rem;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        background-color: #DC4720;
+        border-radius: 10px;
+        cursor: pointer;
+        outline: 1px solid #ffffffc0;
+    }
+
+    .curriculum-dev-dark a:hover {
+        background-color: #dc4620a9;
+    }
+
 }     
 
 @media screen and (min-width: 768px) and (max-width: 1024px) { /* TABLETS */
@@ -233,6 +335,108 @@
 
     .curriculum-dev a:hover {
         background-color: #213c55d8;
+    }
+
+    .photo-dev-dark {
+        padding: 10px;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .photo-dev-dark img {
+        width: 250px;
+        height: 250px;
+        border-radius: 50%;
+        border: 10px solid #222222;
+        outline: 8px solid #DC4720;    
+        animation: lights-neon 1.5s infinite alternate;
+    }
+
+    .personal-dev-dark {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        width: 95vw;
+        padding: 12px;
+        margin-top: 22px;
+        justify-self: center;
+    }
+
+    .personal-dev-dark h3 {
+        font-size: 1.4rem;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: #DC4720;
+        text-shadow: .1px .1px .1px #ffffff;
+        font-weight: 600;
+        text-align: center;
+    }
+
+    .personal-dev-dark p {
+        font-size: 1.1rem;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-weight: 500;
+        text-align: justify;
+        padding: 10px;
+        color: #ffffff;
+        text-shadow: .1px .1px .2px #000000;
+    }
+
+    .social-media-dev-dark {
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        justify-self: center;
+        padding: 10px;
+    }
+
+    .icon-social-media-dev-dark {
+        font-size: 1.4rem;
+        color: #DC4720;
+        cursor: pointer;
+    }
+
+    .icon-social-media-dev-dark:hover {
+        fill: #7076f4;
+        font-size: 1.3rem;
+    }
+
+    .curriculum-dev-dark {
+        display: flex;
+        padding: 12px;
+        width: 95vw;
+        justify-self: center;
+    }
+
+    .curriculum-dev-dark p {
+        font-size: 1.1rem;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-weight: 500;
+        text-align: justify;
+        padding: 10px;
+        color: #ffffff;
+        text-shadow: .1px .1px .2px #030303;
+    }
+
+    .curriculum-dev-dark a {
+        display: inline-block;
+        width: 170px;
+        height: 24px;
+        text-align: center;
+        align-content: center;
+        color: #ffffff;
+        text-shadow: .2px .2px 1px black;
+        text-decoration: none;
+        font-weight: 600;
+        font-size: 1rem;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        background-color: #DC4720;
+        border-radius: 10px;
+        cursor: pointer;
+        outline: 1px solid #ffffffc0;
+    }
+
+    .curriculum-dev-dark a:hover {
+        background-color: #dc4620a9;
     }
 
 }
@@ -348,6 +552,108 @@
         background-color: #213c55d8;
     }
 
+    .photo-dev-dark {
+        padding: 10px;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .photo-dev-dark img {
+        width: 250px;
+        height: 250px;
+        border-radius: 50%;
+        border: 10px solid #222222;
+        outline: 8px solid #DC4720;    
+        animation: lights-neon 1.5s infinite alternate;
+    }
+
+    .personal-dev-dark {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        width: 95vw;
+        padding: 12px;
+        margin-top: 22px;
+        justify-self: center;
+    }
+
+    .personal-dev-dark h3 {
+        font-size: 1.4rem;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: #DC4720;
+        text-shadow: .1px .1px .1px #ffffff;
+        font-weight: 600;
+        text-align: center;
+    }
+
+    .personal-dev-dark p {
+        font-size: 1.1rem;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-weight: 500;
+        text-align: justify;
+        padding: 10px;
+        color: #ffffff;
+        text-shadow: .1px .1px .2px #000000;
+    }
+
+    .social-media-dev-dark {
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        justify-self: center;
+        padding: 10px;
+    }
+
+    .icon-social-media-dev-dark {
+        font-size: 1.4rem;
+        color: #DC4720;
+        cursor: pointer;
+    }
+
+    .icon-social-media-dev-dark:hover {
+        fill: #7076f4;
+        font-size: 1.3rem;
+    }
+
+    .curriculum-dev-dark {
+        display: flex;
+        padding: 12px;
+        width: 95vw;
+        justify-self: center;
+    }
+
+    .curriculum-dev-dark p {
+        font-size: 1.1rem;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-weight: 500;
+        text-align: justify;
+        padding: 10px;
+        color: #ffffff;
+        text-shadow: .1px .1px .2px #030303;
+    }
+
+    .curriculum-dev-dark a {
+        display: inline-block;
+        width: 170px;
+        height: 24px;
+        text-align: center;
+        align-content: center;
+        color: #ffffff;
+        text-shadow: .2px .2px 1px black;
+        text-decoration: none;
+        font-weight: 600;
+        font-size: 1.1rem;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        background-color: #DC4720;
+        border-radius: 10px;
+        cursor: pointer;
+        outline: 1px solid #ffffffc0;
+    }
+
+    .curriculum-dev-dark a:hover {
+        background-color: #dc4620a9;
+    }
+
 }
 
 @media screen and (min-width: 1200px) { /* TELAS GRANDES */
@@ -459,6 +765,108 @@
 
     .curriculum-dev a:hover {
         background-color: #213c55d8;
+    }
+
+    .photo-dev-dark {
+        padding: 10px;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .photo-dev-dark img {
+        width: 250px;
+        height: 250px;
+        border-radius: 50%;
+        border: 10px solid #222222;
+        outline: 8px solid #DC4720;    
+        animation: lights-neon 1.5s infinite alternate;
+    }
+
+    .personal-dev-dark {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        width: 95vw;
+        padding: 12px;
+        margin-top: 22px;
+        justify-self: center;
+    }
+
+    .personal-dev-dark h3 {
+        font-size: 1.4rem;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: #DC4720;
+        text-shadow: .1px .1px .1px #ffffff;
+        font-weight: 600;
+        text-align: center;
+    }
+
+    .personal-dev-dark p {
+        font-size: 1.1rem;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-weight: 500;
+        text-align: justify;
+        padding: 10px;
+        color: #ffffff;
+        text-shadow: .1px .1px .2px #000000;
+    }
+
+    .social-media-dev-dark {
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        justify-self: center;
+        padding: 10px;
+    }
+
+    .icon-social-media-dev-dark {
+        font-size: 1.4rem;
+        color: #DC4720;
+        cursor: pointer;
+    }
+
+    .icon-social-media-dev-dark:hover {
+        fill: #7076f4;
+        font-size: 1.3rem;
+    }
+
+    .curriculum-dev-dark {
+        display: flex;
+        padding: 12px;
+        width: 95vw;
+        justify-self: center;
+    }
+
+    .curriculum-dev-dark p {
+        font-size: 1.1rem;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-weight: 500;
+        text-align: justify;
+        padding: 10px;
+        color: #ffffff;
+        text-shadow: .1px .1px .2px #030303;
+    }
+
+    .curriculum-dev-dark a {
+        display: inline-block;
+        width: 170px;
+        height: 24px;
+        text-align: center;
+        align-content: center;
+        color: #ffffff;
+        text-shadow: .2px .2px 1px black;
+        text-decoration: none;
+        font-weight: 600;
+        font-size: 1.2rem;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        background-color: #DC4720;
+        border-radius: 10px;
+        cursor: pointer;
+        outline: 1px solid #ffffffc0;
+    }
+
+    .curriculum-dev-dark a:hover {
+        background-color: #dc4620a9;
     }
 
 }
