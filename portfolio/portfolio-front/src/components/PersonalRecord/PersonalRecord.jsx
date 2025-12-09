@@ -11,11 +11,11 @@ import { FaLinkedinIn,FaGithub,FaInstagramSquare,FaFacebook } from "react-icons/
 
 const PersonalRecord = () => {
 
-  const { colorTheme,setColorTheme } = useContext(Context_Themes)
+  const { colorTheme,setColorTheme,SectionID } = useContext(Context_Themes)
 
   return (
 
-    <div className="container-personal-record">
+    <div className="container-personal-record" id={SectionID[0]}>
 
       <div className={colorTheme === "dark" ? "photo-dev-dark" : "photo-dev"}>
           <img src={photo_dev} alt="foto do desenvolvedor" />

@@ -11,11 +11,11 @@ import { FaGraduationCap } from "react-icons/fa6";
 
 const Formations = () => {
 
-    const { colorTheme,setColorTheme } = useContext(Context_Themes)
+    const { colorTheme,setColorTheme,SectionID } = useContext(Context_Themes)
 
   return (
 
-    <div className="container-formations">
+    <div className="container-formations" id={SectionID[2]}>
             
         <div className={colorTheme === "dark" ? "sub-container-formations-dark" : "sub-container-formations"}>
 

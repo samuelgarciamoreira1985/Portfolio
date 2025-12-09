@@ -16,11 +16,11 @@ import { MdDashboardCustomize,MdEmojiPeople } from "react-icons/md";
 
 const Skills = () => {
 
-    const { colorTheme,setColorTheme } = useContext(Context_Themes)
+    const { colorTheme,setColorTheme,SectionID } = useContext(Context_Themes)
 
   return (
 
-    <div className="container-skills">
+    <div className="container-skills" id={SectionID[1]}>
 
         <div className={colorTheme === "dark" ? "sub-container-skills-dark" : "sub-container-skills"}>
 

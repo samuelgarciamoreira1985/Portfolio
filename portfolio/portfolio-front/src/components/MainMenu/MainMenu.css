@@ -1,31 +1,8 @@
 .container-mainmenu {
     width: 100vw;
-    height: 4vh;
     background-color: #213c55;
     position: sticky;
     top: 0;
-}
-
-.menu-items {
-    width: 100vw;
-    height: 4vh;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    gap: 25px;
-    background-color: #213c55;
-}
-
-.icon-mainmenu {
-    font-size: 1.5rem;
-    color: white;
-    cursor: pointer;
-}
-
-.icon-mainmenu:hover {
-    fill: #7076f4;
-    font-size: 1.4rem;
 }
 
 /* *************MEDIA QUERIES************** */
@@ -40,7 +17,6 @@
 @media screen and (max-width: 768px) { /* CELULARES */
     .menu-items {
         width: 100vw;
-        height: 4vh;
         display: flex;
         flex-direction: row;
         justify-content: center;
@@ -60,12 +36,35 @@
         fill: #7076f4;
         font-size: 1.4rem;
     }
+
+    .menu-items-dark {
+        width: 100vw;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 25px;
+        background-color: #DC4720;
+    }
+
+    .icon-mainmenu-dark {
+        font-size: 1.5rem;
+        color: #222222;
+        cursor: pointer;
+        padding: 3px;
+    }
+
+    .icon-mainmenu-dark:hover {
+        fill: #7076f4;
+        font-size: 1.4rem;
+    }
+
 }
 
 @media screen and (min-width: 768px) and (max-width: 1024px) { /* TABLETS */
+
     .menu-items {
         width: 100vw;
-        height: 4vh;
         display: flex;
         flex-direction: row;
         justify-content: center;
@@ -85,12 +84,35 @@
         fill: #7076f4;
         font-size: 1.4rem;
     }
+
+    .menu-items-dark {
+        width: 100vw;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 25px;
+        background-color: #DC4720;
+    }
+
+    .icon-mainmenu-dark {
+        font-size: 1.5rem;
+        color: #222222;
+        cursor: pointer;
+        padding: 3px;
+    }
+
+    .icon-mainmenu-dark:hover {
+        fill: #7076f4;
+        font-size: 1.4rem;
+    }
+
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1200px) { /* DESKTOP */
+
     .menu-items {
         width: 100vw;
-        height: 4vh;
         display: flex;
         flex-direction: row;
         justify-content: center;
@@ -110,12 +132,35 @@
         fill: #7076f4;
         font-size: 1.4rem;
     }
+
+    .menu-items-dark {
+        width: 100vw;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 25px;
+        background-color: #DC4720;
+    }
+
+    .icon-mainmenu-dark {
+        font-size: 1.5rem;
+        color: #222222;
+        cursor: pointer;
+        padding: 2px;
+    }
+
+    .icon-mainmenu-dark:hover {
+        fill: #7076f4;
+        font-size: 1.4rem;
+    }
+
 }
 
 @media screen and (min-width: 1200px) { /* GRANDES TELAS */
+
     .menu-items {
         width: 100vw;
-        height: 4vh;
         display: flex;
         flex-direction: row;
         justify-content: center;
@@ -131,8 +176,31 @@
         padding: .5px;
     }
 
-.icon-mainmenu:hover {
+    .icon-mainmenu:hover {
         fill: #7076f4;
         font-size: 1.4rem;
     }
+
+    .menu-items-dark {
+        width: 100vw;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 25px;
+        background-color: #DC4720;
+    }
+
+    .icon-mainmenu-dark {
+        font-size: 1.5rem;
+        color: #222222;
+        cursor: pointer;
+        padding: .5px;
+    }
+
+    .icon-mainmenu-dark:hover {
+        fill: #7076f4;
+        font-size: 1.4rem;
+    }
+
 }
