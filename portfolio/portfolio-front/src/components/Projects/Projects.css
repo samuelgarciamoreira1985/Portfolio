@@ -78,13 +78,13 @@ html {
         gap: 8px;
     }
 
-    .align-items-projects img {
+    .align-items-projects video {
         width: 100%;
         height: 100%;
         background-size: contain;
         border-radius: 10px;
-        border-left: 4px solid black;
-        border-bottom: 5px solid black;
+        border-left: 4px solid #213c55;
+        border-bottom: 5px solid #213c55;
     }
 
     .align-items-projects .period-project {
@@ -114,31 +114,6 @@ html {
     .icon-description-project {
         color: #213c55;
         font-size: 1.1rem;
-    }
-
-    .align-items-projects a {
-        background-color: #213c55;
-        color: white;
-        display: inline-block;
-        text-decoration: none;
-        text-align: center;
-        width: 130px;
-        height: 26px;
-        line-height: 23px;
-        display: block;
-        border-radius: 5px;
-        border: none;
-        margin-top: 5px;
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        font-size: .9rem;
-        font-weight: 600;
-        text-shadow: .5px .5px 1px #000000;
-        cursor: pointer;
-        align-self: center;
-    }
-
-    .align-items-projects a:hover {
-        background-color: #213c55c7;
     }
 
     .sub-container-projects-dark {
@@ -202,13 +177,13 @@ html {
         gap: 8px;
     }
 
-    .align-items-projects-dark img {
+    .align-items-projects-dark video {
         width: 100%;
         height: 100%;
         background-size: contain;
         border-radius: 10px;
-        border-left: 4px solid #f7f5f5;
-        border-bottom: 5px solid #e2dfded5;
+        border-left: 4px solid #DC4720;
+        border-bottom: 5px solid #DC4720;
     }
 
     .align-items-projects-dark .period-project-dark {
@@ -240,31 +215,6 @@ html {
     .icon-description-project-dark {
         color: #DC4720;
         font-size: 1.1rem;
-    }
-
-    .align-items-projects-dark a {
-        background-color: #DC4720;
-        color: white;
-        display: inline-block;
-        text-decoration: none;
-        text-align: center;
-        width: 130px;
-        height: 26px;
-        line-height: 23px;
-        display: block;
-        border-radius: 5px;
-        border: none;
-        margin-top: 5px;
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        font-size: .9rem;
-        font-weight: 600;
-        text-shadow: .1px .1px .1px #000000;
-        cursor: pointer;
-        align-self: center;
-    }
-
-    .align-items-projects-dark a:hover {
-        background-color: #dc4620be;
     }
 
 }
@@ -332,13 +282,13 @@ html {
         gap: 8px;
     }
 
-    .align-items-projects img {
+    .align-items-projects video {
         width: 100%;
         height: 100%;
         background-size: contain;
         border-radius: 10px;
-        border-left: 6px solid black;
-        border-bottom: 6px solid black;
+        border-left: 4px solid #213c55;
+        border-bottom: 5px solid #213c55;
     }
 
     .align-items-projects .period-project {
@@ -368,31 +318,6 @@ html {
     .icon-description-project {
         color: #213c55;
         font-size: 1.1rem;
-    }
-
-    .align-items-projects a {
-        background-color: #213c55;
-        color: white;
-        display: inline-block;
-        text-decoration: none;
-        text-align: center;
-        width: 132px;
-        height: 27px;
-        line-height: 23px;
-        display: block;
-        border-radius: 5px;
-        border: none;
-        margin-top: 5px;
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        font-size: 1rem;
-        font-weight: 600;
-        text-shadow: .5px .5px 1px #000000;
-        cursor: pointer;
-        align-self: center;
-    }
-
-    .align-items-projects a:hover {
-        background-color: #213c55c7;
     }
 
     .sub-container-projects-dark {
@@ -456,13 +381,13 @@ html {
         gap: 8px;
     }
 
-    .align-items-projects-dark img {
+    .align-items-projects-dark video {
         width: 100%;
         height: 100%;
         background-size: contain;
         border-radius: 10px;
-        border-left: 6px solid #f7f5f5;
-        border-bottom: 6px solid #e2dfded5;
+        border-left: 4px solid #DC4720;
+        border-bottom: 5px solid #DC4720;
     }
 
     .align-items-projects-dark .period-project-dark {
@@ -494,31 +419,6 @@ html {
     .icon-description-project-dark {
         color: #DC4720;
         font-size: 1.1rem;
-    }
-
-    .align-items-projects-dark a {
-        background-color: #DC4720;
-        color: white;
-        display: inline-block;
-        text-decoration: none;
-        text-align: center;
-        width: 132px;
-        height: 27px;
-        line-height: 23px;
-        display: block;
-        border-radius: 5px;
-        border: none;
-        margin-top: 5px;
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        font-size: 1rem;
-        font-weight: 600;
-        text-shadow: .1px .1px .1px #000000;
-        cursor: pointer;
-        align-self: center;
-    }
-
-    .align-items-projects-dark a:hover {
-        background-color: #dc4620be;
     }
 
 }
@@ -586,13 +486,13 @@ html {
         gap: 8px;
     }
 
-    .align-items-projects img {
+    .align-items-projects video {
         width: 100%;
         height: 100%;
         background-size: contain;
         border-radius: 10px;
-        border-left: 6px solid black;
-        border-bottom: 6px solid black;
+        border-left: 4px solid #213c55;
+        border-bottom: 5px solid #213c55;
     }
 
     .align-items-projects .period-project {
@@ -622,31 +522,6 @@ html {
     .icon-description-project {
         color: #213c55;
         font-size: 1.1rem;
-    }
-
-    .align-items-projects a {
-        background-color: #213c55;
-        color: white;
-        display: inline-block;
-        text-decoration: none;
-        text-align: center;
-        width: 132px;
-        height: 27px;
-        line-height: 23px;
-        display: block;
-        border-radius: 5px;
-        border: none;
-        margin-top: 5px;
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        font-size: 1rem;
-        font-weight: 600;
-        text-shadow: .5px .5px 1px #000000;
-        cursor: pointer;
-        align-self: center;
-    }
-
-    .align-items-projects a:hover {
-        background-color: #213c55c7;
     }
 
     .sub-container-projects-dark {
@@ -710,13 +585,13 @@ html {
         gap: 8px;
     }
 
-    .align-items-projects-dark img {
+    .align-items-projects-dark video {
         width: 100%;
         height: 100%;
         background-size: contain;
         border-radius: 10px;
-        border-left: 6px solid #f7f5f5;
-        border-bottom: 6px solid #e2dfded5;
+        border-left: 4px solid #DC4720;
+        border-bottom: 5px solid #DC4720;
     }
 
     .align-items-projects-dark .period-project-dark {
@@ -748,31 +623,6 @@ html {
     .icon-description-project-dark {
         color: #DC4720;
         font-size: 1.1rem;
-    }
-
-    .align-items-projects-dark a {
-        background-color: #DC4720;
-        color: white;
-        display: inline-block;
-        text-decoration: none;
-        text-align: center;
-        width: 132px;
-        height: 27px;
-        line-height: 23px;
-        display: block;
-        border-radius: 5px;
-        border: none;
-        margin-top: 5px;
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        font-size: 1rem;
-        font-weight: 600;
-        text-shadow: .1px .1px .1px #000000;
-        cursor: pointer;
-        align-self: center;
-    }
-
-    .align-items-projects-dark a:hover {
-        background-color: #dc4620be;
     }
 
 }
@@ -840,13 +690,13 @@ html {
         gap: 8px;
     }
 
-    .align-items-projects img {
+    .align-items-projects video {
         width: 100%;
         height: 100%;
         background-size: contain;
         border-radius: 10px;
-        border-left: 6px solid black;
-        border-bottom: 6px solid black;
+        border-left: 4px solid #213c55;
+        border-bottom: 5px solid #213c55;
     }
 
     .align-items-projects .period-project {
@@ -876,31 +726,6 @@ html {
     .icon-description-project {
         color: #213c55;
         font-size: 1.1rem;
-    }
-
-    .align-items-projects a {
-        background-color: #213c55;
-        color: white;
-        display: inline-block;
-        text-decoration: none;
-        text-align: center;
-        width: 132px;
-        height: 27px;
-        line-height: 23px;
-        display: block;
-        border-radius: 5px;
-        border: none;
-        margin-top: 5px;
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        font-size: 1rem;
-        font-weight: 600;
-        text-shadow: .5px .5px 1px #000000;
-        cursor: pointer;
-        align-self: center;
-    }
-
-    .align-items-projects a:hover {
-        background-color: #213c55c7;
     }
 
     .sub-container-projects-dark {
@@ -964,13 +789,13 @@ html {
         gap: 8px;
     }
 
-    .align-items-projects-dark img {
+    .align-items-projects-dark video {
         width: 100%;
         height: 100%;
         background-size: contain;
         border-radius: 10px;
-        border-left: 6px solid #f7f5f5;
-        border-bottom: 6px solid #e2dfded5;
+        border-left: 4px solid #DC4720;
+        border-bottom: 5px solid #DC4720;
     }
 
     .align-items-projects-dark .period-project-dark {
@@ -1002,31 +827,6 @@ html {
     .icon-description-project-dark {
         color: #DC4720;
         font-size: 1.1rem;
-    }
-
-    .align-items-projects-dark a {
-        background-color: #DC4720;
-        color: white;
-        display: inline-block;
-        text-decoration: none;
-        text-align: center;
-        width: 132px;
-        height: 27px;
-        line-height: 23px;
-        display: block;
-        border-radius: 5px;
-        border: none;
-        margin-top: 5px;
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        font-size: 1rem;
-        font-weight: 600;
-        text-shadow: .1px .1px .1px #000000;
-        cursor: pointer;
-        align-self: center;
-    }
-
-    .align-items-projects-dark a:hover {
-        background-color: #dc4620be;
     }
 
 }       

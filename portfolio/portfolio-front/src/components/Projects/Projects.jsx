@@ -7,6 +7,8 @@ import "./Projects.css"
 // ÍCONES
 import { FaDiagramProject } from "react-icons/fa6";
 import { IoArrowRedo } from "react-icons/io5";
+// VÍDEOS
+import video_lunch_king from "../../assets/videos/video-lunch-king.mp4"
 // IMAGENS
 import img_lunch_king from "../../assets/imagens/img-lunch-king.png"
 import img_mari_artes from "../../assets/imagens/img-mari-artes.png"
@@ -30,11 +32,13 @@ const Projects = () => {
 
                 <div className={colorTheme === "dark" ? "items-projects-dark" : "items-projects"}>
                     <div className={colorTheme === "dark" ? "align-items-projects-dark" : "align-items-projects"}>
-                        <img src={img_lunch_king} alt="foto do projeto Lunch King" />
+                        <video 
+                        src={video_lunch_king} 
+                        controls poster={img_lunch_king}>
+                        </video>
                         <p className={colorTheme === "dark" ? "period-project-dark" : "period-project"}>2025</p>
                         <h4>Lunch King - Sistema para Lanchonetes</h4>
-                        <p className={colorTheme === "dark" ? "description-project-dark" : "description-project"}><IoArrowRedo className={colorTheme === "dark" ? "icon-description-project-dark" : "icon-description-project"}/> Sistema web com foco específico em serviços para lanchonetes. Possibilita ao usuário realizar novos cadastros, alterações, exclusões e gravações de produtos através de interfaces bonitas e intuitivas. Disponibiliza também uma interface para operações de vendas, permitindo ao operador gerar QrCodes e Notas Fiscais.</p>
-                        <a href="#" target="_blank">Acessar Projeto</a>
+                        <p className={colorTheme === "dark" ? "description-project-dark" : "description-project"}><IoArrowRedo className={colorTheme === "dark" ? "icon-description-project-dark" : "icon-description-project"}/> Sistema web com foco específico em serviços para lanchonetes. Possibilita ao usuário realizar novos cadastros, alterações, exclusões e gravações de produtos através de interfaces bonitas e intuitivas. Disponibiliza também uma interface para operações de vendas, permitindo ao operador gerar QrCodes e Notas Fiscais.</p>                       
                     </div>
                 </div>
                 <div className={colorTheme === "dark" ? "items-projects-dark" : "items-projects"}>
@@ -43,7 +47,6 @@ const Projects = () => {
                         <p className={colorTheme === "dark" ? "period-project-dark" : "period-project"}>2025</p>
                         <h4>Mari Artes - Site de Artesanato</h4>
                         <p className={colorTheme === "dark" ? "description-project-dark" : "description-project"}><IoArrowRedo className={colorTheme === "dark" ? "icon-description-project-dark" : "icon-description-project"}/> O site possibilita ao usuário conferir produtos de artesanato assim como seus preços e detalhes específicos. O usuário também tem a possibilidade de adicionar ou remover produtos no seu carrinho de compras e enviar seu pedido finalizado para o destinatário.</p>
-                        <a href="#" target="_blank">Acessar Projeto</a>
                     </div>
                 </div>
 
