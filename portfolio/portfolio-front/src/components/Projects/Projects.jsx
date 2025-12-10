@@ -9,6 +9,7 @@ import { FaDiagramProject } from "react-icons/fa6";
 import { IoArrowRedo } from "react-icons/io5";
 // VÍDEOS
 import video_lunch_king from "../../assets/videos/video-lunch-king.mp4"
+import video_mari_artes from "../../assets/videos/video-mari-artes.mp4"
 // IMAGENS
 import img_lunch_king from "../../assets/imagens/img-lunch-king.png"
 import img_mari_artes from "../../assets/imagens/img-mari-artes.png"
@@ -43,7 +44,10 @@ const Projects = () => {
                 </div>
                 <div className={colorTheme === "dark" ? "items-projects-dark" : "items-projects"}>
                     <div className={colorTheme === "dark" ? "align-items-projects-dark" : "align-items-projects"}>
-                        <img src={img_mari_artes} alt="foto do projeto Mari-Artes" />
+                        <video 
+                        src={video_mari_artes} 
+                        controls poster={img_mari_artes}>
+                        </video>
                         <p className={colorTheme === "dark" ? "period-project-dark" : "period-project"}>2025</p>
                         <h4>Mari Artes - Site de Artesanato</h4>
                         <p className={colorTheme === "dark" ? "description-project-dark" : "description-project"}><IoArrowRedo className={colorTheme === "dark" ? "icon-description-project-dark" : "icon-description-project"}/> O site possibilita ao usuário conferir produtos de artesanato assim como seus preços e detalhes específicos. O usuário também tem a possibilidade de adicionar ou remover produtos no seu carrinho de compras e enviar seu pedido finalizado para o destinatário.</p>
